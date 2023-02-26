@@ -5,7 +5,7 @@ public class CreditAccount extends Account {
 
     public CreditAccount(String name, long balance) {
         super(name, balance);
-        this.balance = getBalance();
+        this.setBalance(balance);
     }
 
     public void setBalance(long balance) {
